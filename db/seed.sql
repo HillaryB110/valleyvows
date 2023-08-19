@@ -2,11 +2,11 @@
 
 --INSERT INTO ()
 
-INSERT INTO dating_pool(firstname, gender, birthday, family, bio_short, full_profile, best_gift)
+INSERT INTO dating_pool(firstname, gender, birthday, family, bio_short, full_profile, gift_recieved)
 VALUES ('Alex', 'Male', 'Summer 13', 'Evelyn (Grandmother)\nGeorge (Grandfather)',
         'About Alex:\n\nSports lover and beach enthusiast\nBalances confidence with inner self-doubt\nUses sports dreams to cope with the loss of parents\nSpends time at the Spa in winter, Ice Cream Stand in summer, and beach in summer mornings\nComplex personality, searching for his true self',
         'Dating Profile: Alex - The Conflicted Athlete\n\nHey there! I''m Alex, your friendly neighborhood sports enthusiast with a passion for hitting the beach and embracing the outdoors. You''ll often find me showing off my moves on the field or catching some waves by the shore. But there''s more to me than meets the eye.\n\nConfidence is my middle name, and I won''t hesitate to let you know that I''m destined for greatness in the world of sports. I''m that guy who''s always bragging about how I''m going to be the next big thing, a professional athlete who''s going to leave everyone in awe. But deep down, there''s more to my story than the bravado.\n\nYou see, sometimes my swagger is just a front, a shield I put up to mask the doubts that occasionally creep in. Maybe it''s my way of dealing with the uncertainties that life throws at us. I lost my parents, and their absence left a void that''s tough to fill. Sports became my refuge, my way of escaping reality and focusing on something that brings me joy.\n\nAs much as I talk a big game, there''s a side of me that wonders if I''m living up to the expectations I set for myself. Sure, I might come across as cocky, but it''s all part of my journey of self-discovery. I''m not just about looking cool or boasting; I''m on a path to uncovering who I truly am.\n\nWhen I''m not practicing on the field or hanging out at the beach, I''m in Pelican Town, living at 1 River Road. My family is small but meaningful; I have my grandmother Evelyn and my grandfather George. They mean the world to me.\n\nSo, are you up for the challenge of getting to know the real Alex? Beyond the sports fields and beach hangouts, there''s a complex person waiting to be understood. If you''re interested in sharing some deep conversations, fun adventures, and maybe even helping me navigate the twists and turns of life, swipe right and let''s see where this journey takes us.\n\nRemember, appearances can be deceiving, and I''m more than just a brazen youth. Let''s find out if we''re a match made in Stardew Valley!',
-        'Complete Breakfast\nSalmon Dinner'),('Elliot', 'Male', 'Fall 5', '', 'About Elliott:
+        false ),('Elliot', 'Male', 'Fall 5', '', 'About Elliott:
 
 Dreamer and writer residing in a cabin on the beach
 Finds inspiration in the beauty of nature and the rhythm of the waves
@@ -25,12 +25,7 @@ Do you believe that a humble farmer like yourself could be the inspiration I''ve
 My cabin, a haven of imagination, welcomes visitors with open arms during Winter, and during the other seasons, a friendship of at least two hearts will unlock its doors.
 
 If you''re looking for a partner who sees the world through a writer''s eyes, appreciates the rhythm of the waves, and is open to exploring life''s poetic side, swipe right. Let''s create our own narrative and see if our stories intertwine.', 
-'Crab Cakes
-Duck Feather
-Lobster
-Pomegranate
-Squid Ink
-Tom Kha Soup'
+false
 ),('Harvey', 'Male', 'Winter 14', '', 
 'About Harvey:
 
@@ -53,11 +48,7 @@ On Tuesdays and Thursdays, I''m busy giving checkups to the villagers. On other 
 But don''t mistake me for a recluse; I make time to visit the Stardrop Saloon for some friendly interaction. And speaking of interaction, I might just be waiting for someone who sees past the white coat and stethoscope, someone who can mend my heart as well.
 
 So, are you ready to unravel the layers and stories that make up Harvey? If you''re interested in sharing conversations over a cup of coffee, enjoying a hearty meal, or exploring the complexities of life, maybe we can write a new chapter together. Age might bring experience, but life''s greatest adventures are still ahead.', 
-'Coffee
-Pickles
-Super Meal
-Truffle Oil
-Wine'
+false
 )('Sam', 'Male', 'Summer 17', 
 'Kent (Father)
 Jodi (Mother)
@@ -86,10 +77,7 @@ I live in the southern part of Pelican Town, just north of the river at 1 Willow
 So, are you ready for some music, adventure, and unfinished dreams? If you''re someone who can dance to the rhythm of life, whether it''s strumming a guitar, taking on new challenges, or just enjoying the simple joys, swipe right and let''s see where this journey takes us.
 
 Remember, life''s about creating our own melodies, and I''m here to make sure every note counts.',
-'Cactus Fruit
-Maple Bar
-Pizza
-Tigerseye'
+false
 )('Sebastian', 'Male', 'Winter 10', 
 'Robin (Mother)
 Maru (Half-Sister)
@@ -114,11 +102,7 @@ My friendships mean the world to me. Sam is my kindred spirit, my friend who get
 Speaking of Abigail, there might just be a secret I''m holding onto. Sam seems to think I want Abigail to be our drummer - for some reason, I can''t quite explain. Maybe I''m not as closed off as I seem.
 
 So, if you''re up for diving into the enigma that is me, swipe right and let''s embark on a journey of uncovering hidden passions and shared moments. Maybe you''re the one who can bring light to my shadows, and together, we can create melodies that resonate through the mountains.',
-'Frozen Tear
-Obsidian
-Pumpkin Soup
-Sashimi
-Void Egg'
+false
 ),('Shane', 'Male', 'Spring 20', 
 'Marnie (Aunt)
 Jas (Goddaughter)', 
@@ -141,10 +125,7 @@ Despite it all, I''ve found something worth smiling about. As the sun sets, you 
 When I''m not at JojaMart (where Morris is my oh-so-supportive manager), I''m sharing life with my aunt Marnie and my adorable goddaughter, Jas. They mean the world to me, and they''ve given me a reason to keep pushing forward.
 
 So, what do you say? Are you up for looking beyond the surface and seeing the person I''m striving to become? I might not have all the answers, but I''m hoping to find them, step by step. Let''s walk this path together and see if we can bring a splash of color to each other''s lives.',
-'Beer
-Hot Pepper
-Pepper Poppers
-Pizza'
+false
 )('Abigail', 'Female', 'Fall 13', 
 'Pierre (Father)
 Caroline (Mother)', 
@@ -167,13 +148,7 @@ You might catch me in the graveyard, seeking solace in its quiet corners, or may
 When I''m not lost in thought or wandering through the rain, you can find me drumming to the beat of my own rhythm. I''m the drummer for the band that Sam and Sebastian have going on, and let me tell you, music is my outlet, my way of speaking a language that doesn''t need words.
 
 So, what do you think? Are you intrigued by the girl with the unconventional spirit? The one who''s got an appreciation for the mysterious, an eye for the unique, and a heart that''s full of curiosity? If you''re ready for an adventure that goes beyond the ordinary, let''s make some memories together.',
-'Amethyst
-Banana Pudding
-Blackberry Cobbler
-Chocolate Cake
-Pufferfish
-Pumpkin
-Spicy Eel'
+false
 ),('Emily', 'Female', 'Spring 27', 'Haley (Sister)', 
 'About Emily:
 Passionate about tailoring and crafting her own clothes
@@ -193,15 +168,7 @@ Beyond the saloon, you can usually find me at my home on Willow Lane, right next
 Speaking of growth, I''ve got a knack for nurturing friendships. Sandy and I share a special bond, and I''m always there to celebrate her birthday out in the Calico Desert. And if you catch me dancing with Shane at the Flower Dance, it''s just two friends having a good time, nothing more!
 
 So, if you''re intrigued by a girl who sews her dreams into reality and believes in the magic of creating, swipe right. Let''s explore the town together, craft memories, and maybe even create a little bit of magic along the way.',
-'Amethyst
-Aquamarine
-Cloth
-Emerald
-Jade
-Ruby
-Survival Burger
-Topaz
-Wool'
+false
 ),('Haley', 'Female', 'Spring 14', 'Emily (Sister)', 
 'About Haley:
 Embracing a journey of self-discovery beyond high school popularity
@@ -221,10 +188,7 @@ Underneath that candy-coated exterior, there''s a fun, open-minded young woman w
 Oh, and if you catch me dancing with Alex at the Flower Dance, don''t read too much into it. We''re friends, just having a good time, no strings attached.
 
 So, if you''re up for an adventure with a girl who''s breaking free from her old self, let''s make some memories together. Who knows, you might just uncover the real Haley - the one who''s learning that true beauty goes beyond appearances.',
-'Coconut
-Fruit Salad
-Pink Cake
-Sunflower'
+false
 )('Leah', 'Female', 'Winter 23', ' ', 
 'About Leah:
 Talented artist with a love for nature and the outdoors
@@ -243,13 +207,7 @@ When I''m not lost in my artistic pursuits, I''m embracing the gifts of the seas
 And then there''s the Flower Dance - if you see me dancing with Elliott, it''s just a friendly twirl, no strings attached.
 
 So, if you''re ready to explore the world through an artist''s eyes and maybe help me uncover the courage to share my creations with the world, swipe right. Let''s dive into the beauty of life together, one brushstroke at a time.',
-'Goat Cheese
-Poppyseed Muffin
-Salad
-Stir Fry
-Truffle
-Vegetable Medley
-Wine'
+false
 ),('Maru', 'Female', 'Summer 10', 
 'Demetrius (Father)
 Robin (Mother)
@@ -274,17 +232,7 @@ You''ll usually find me up in The Mountains, where I live with my family. I shar
 Oh, and the Flower Dance? If you see me dancing with Harvey, it''s just a friendly twirl - nothing more.
 
 So, if you''re ready to explore the world of machines, science, and ambition with a girl who''s friendly, outgoing, and ready for an adventure, swipe right. Let''s create our own love story, one innovation at a time.',
-'Battery Pack
-Cauliflower
-Cheese Cauliflower
-Diamond
-Gold Bar
-Iridium Bar
-Miner''s Treat
-Pepper Poppers
-Radioactive Bar
-Rhubarb Pie
-Strawberry'
+false
 ),('Penny', 'Female', 'Fall 2', 
 'Pam (Mother)',
 'About Penny:
@@ -303,13 +251,8 @@ You''ll usually find me tucked away in my dimly lit room, absorbed in my chores 
 My ambitions might not be grand - I dream of settling down and starting a family, creating a warm and loving home. I enjoy cooking, even though my culinary skills might be questionable. But hey, life''s about learning, right?
 
 If you''re looking for a love that''s built on the foundation of simplicity and shared dreams, I might just be the one for you. And don''t let my shyness fool you - there''s a whole world of thoughts and feelings waiting to be explored.',
-'Diamond
-Emerald
-Melon
-Poppy
-Poppyseed Muffin
-Red Plate
-Roots Platter
-Sandfish
-Tom Kha Soup'
+false
 );
+
+INSERT INTO gifts (gift_name, gift_description, category)
+VALUES ('Complete Breakfast','You''ll feel ready to take on the world!','Cooked Dish'),('Salmon Dinner','The lemon spritz makes it special.','Cooked Dish'),('Crab Cakes','Crab, bread crumbs, and egg formed into patties then fried to a golden brown.','Cooked Dish')('Duck Feather', 'It''s so colorful.','Artisan Goods'),('Lobster','A large ocean-dwelling crustacean with a strong tail.',	'Fish')('Pomegranate',	'Within the fruit are clusters of juicy seeds.','Fruit')('Squid Ink ', 'Squid use this ink to confuse would-be predators.',	'Artisan Goods'),('Tom Kha Soup','These flavors are incredible!','Cooked Dish'),('Coffee', 'It smells delicious. This is sure to give you a boost.','	Cooked Dish'),('Pickles', 'A jar of your home-made pickles.', 'Artisan Goods'),('Super Meal','It''s a really energizing meal.','Cooked Dish'),('Truffle Oil','A gourmet cooking ingredient.','Artisan Goods'),('Wine', 'Drink in moderation.',	'Artisan Goods'),('Cactus Fruit',	'The sweet fruit of the prickly pear cactus.','Forage'),('Maple Bar', 'It''s a sweet doughnut topped with a rich maple glaze.','Cooked Dish'),('Pizza','It''s popular for all the right reasons.','Cooked Dish'),('Tigerseye', 'A stripe of shimmering gold gives this gem a warm luster.',	'Mineral'),('Frozen Tear', 'A crystal fabled to be the frozen tears of a yeti.','Mineral'),('Obsidian',	'A volcanic glass that forms when lava cools rapidly.','Mineral'),('Pumpkin Soup','A seasonal favorite.', 'Cooked Dish'),('Sashimi','Raw fish sliced into thin pieces.','Cooked Dish'),('Void Egg',	'A jet-black egg with red flecks. It''s warm to the touch.','Animal Product'),('Beer','Drink in moderation.','Artisan Goods'),('Hot Pepper','Fiery hot with a hint of sweetness.','Fruit'),('Pepper Poppers','Spicy breaded peppers filled with cheese.','Cooked Dish'),('Amethyst', 'A purple variant of quartz.','Mineral'),('Banana Pudding', 'A creamy dessert with a wonderful tropical flavor.','Cooked Dish'),('Blackberry Cobbler','There''s nothing quite like it.',	'Cooked Dish'),('Chocolate Cake',	'Rich and moist with a thick fudge icing.',	'Cooked Dish')('Pufferfish','Inflates when threatened.','Fish')('Pumpkin','A fall favorite, grown for its crunchy seeds and delicately flavored flesh. As a bonus, the hollow shell can be carved into a festive decoration.','Vegetable'),('Spicy Eel','It''s really spicy! Be careful.', 'Cooked Dish'),('Aquamarine','A shimmery blue-green gem.','Mineral'),('Cloth','A bolt of fine wool cloth.', 'Artisan Goods'),('Emerald',	'A precious stone with a brilliant green color.','Mineral'),('Jade','A pale green ornamental stone.', 'Mineral'),('Ruby','A precious stone that is sought after for its rich color and beautiful luster.','Mineral'),('Survival Burger', 'A convenient snack for the explorer.','Cooked Dish'),('Topaz',  'Fairly common but still prized for its beauty.','Mineral'),('Wool',	'Soft, fluffy wool.','Animal Product'),('Coconut', 'A seed of the coconut palm. It has many culinary uses.','Fruit'),('Fruit Salad','A delicious combination of summer fruits.','Cooked Dish'),('Pink Cake','There''s little heart candies on top.','Cooked Dish'),('Sunflower','A common misconception is that the flower turns so it''s always facing the sun.','Flower'),('Goat Cheese',	'Soft cheese made from goat''s milk.','Artisan Goods'),('Poppyseed Muffin',	'It has a soothing effect.',	'Cooked Dish'),('Salad','A healthy garden salad.','Cooked Dish'),('Stir Fry','Julienned vegetables on a bed of rice.','Cooked Dish'),('Truffle', 'A gourmet type of mushroom with a unique taste.',	'Forage'),('Vegetable Medley','This is very nutritious.'	'Cooked Dish'),('Battery Pack',	'It''s fully charged with precious energy.','Artisan Goods'),('Cauliflower','Valuable, but slow-growing. Despite its pale color, the florets are packed with nutrients.','Vegetable'),('Cheese Cauliflower','It smells great!', 'Cooked Dish'),('Diamond','A rare and valuable gem.','Mineral'),('Gold Bar','A bar of pure gold.','Smelting'),('Iridium Bar',	'A bar of pure iridium.','Smelting'),('Miner''s Treat',	'This should keep your energy up.',	'Cooked Dish'),('Radioactive Bar','Known by the Zuzu City Safety Commission to cause irreversible bodily harm.','Smelting'),('Rhubarb Pie',	'Mmm, tangy and sweet!','Cooked Dish'),('Strawberry', 'A sweet, juicy favorite with an appealing red color.','Fruit'),('Melon','A cool, sweet summer treat.','Fruit'),('Poppy','In addition to its colorful flower, the Poppy has culinary and medicinal uses.','Flower'),('Red Plate',	'Full of antioxidants.','Cooked Dish'),('Roots Platter','This''ll get you digging for more.','Cooked Dish'),('Sandfish','It tries to hide using camouflage.','Fish');
