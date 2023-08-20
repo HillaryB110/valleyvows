@@ -43,7 +43,7 @@ You''ll usually find me at the clinic, where I run the medical show. It''s more 
 
 There''s a certain sadness that lingers, a feeling that I''m carrying something hidden deep within. It''s as if there''s a story untold, a chapter that''s not yet revealed. Despite my responsibilities, there''s a sense of yearning for something more, something I''ve kept locked away.
 
-On Tuesdays and Thursdays, I''m busy giving checkups to the villagers. On other days, I manage the clinic counter in the mornings and take walks around town in the afternoons. Rainy days are an exception – they lead me upstairs to my room at noon, a retreat that''s both a break and a reminder of solitude.
+On Tuesdays and Thursdays, I''m busy giving checkups to the villagers. On other days, I manage the clinic counter in the mornings and take walks around town in the afternoons. Rainy days are an exception - they lead me upstairs to my room at noon, a retreat that''s both a break and a reminder of solitude.
 
 But don''t mistake me for a recluse; I make time to visit the Stardrop Saloon for some friendly interaction. And speaking of interaction, I might just be waiting for someone who sees past the white coat and stethoscope, someone who can mend my heart as well.
 
