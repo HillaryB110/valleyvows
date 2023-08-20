@@ -1,10 +1,11 @@
+-- Drop the old database and create a new one
 DROP DATABASE IF EXISTS valleyvows_dev;
-
 CREATE DATABASE valleyvows_dev;
 
+-- Connect to the new database
 \c valleyvows_dev;
---user is able to create dating profile
 
+-- Create the 'user_profile' table
 CREATE TABLE user_profile (
     id SERIAL PRIMARY KEY,
     firstname TEXT NOT NULL,
@@ -14,20 +15,9 @@ CREATE TABLE user_profile (
     bio_short TEXT NOT NULL,
     full_profile TEXT NOT NULL,
     best_gift TEXT
-)
+);
 
-
-
---tracks if the user sent a gift and to who it was sent and which item it was 
-CREATE TABLE gift_sent (
-    id SERIAL PRIMARY KEY,
-    user_id INTEGER REFERENCES user_profile(id),
-    dating_pool_id INTEGER REFERENCES dating_pool(id)
-    gift_id INTEGER REFERENCES gifts(id)
-)
-
---user is able to see the total dating pool 
-
+-- Create the 'dating_pool_users' table
 CREATE TABLE dating_pool_users (
     id SERIAL PRIMARY KEY,
     firstname TEXT NOT NULL,
@@ -36,22 +26,28 @@ CREATE TABLE dating_pool_users (
     family TEXT,
     bio_short TEXT NOT NULL,
     full_profile TEXT NOT NULL,
-   gift_recieved BOOLEAN 
-
+    gift_received BOOLEAN
 );
 
---table is to see all gifts items
+-- Create the 'gifts' table
 CREATE TABLE gifts (
     id SERIAL PRIMARY KEY,
-    gift_name TEXT
-    gift_description TEXT
+    gift_name TEXT,
+    gift_description TEXT,
     category TEXT
-   
 );
 
+-- Create the 'gift_sent' table with proper references
+CREATE TABLE gift_sent (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER REFERENCES user_profile(id),
+    dating_pool_id INTEGER REFERENCES dating_pool_users(id),
+    gift_id INTEGER REFERENCES gifts(id)
+);
+
+-- Create the 'users_gifts' table
 CREATE TABLE users_gifts (
     id SERIAL PRIMARY KEY, 
-     dating_pool_id INTEGER REFERENCES dating_pool(id),
-     gift_id INTEGER REFERENCES gifts(id)
+    dating_pool_id INTEGER REFERENCES dating_pool_users(id),
+    gift_id INTEGER REFERENCES gifts(id)
 );
-    
