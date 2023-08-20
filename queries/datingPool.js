@@ -64,7 +64,7 @@ const updateDatingPoolUserById = async (id, data) => {
     return error;
   }
 };
-const deleteDatingPoolUser = async (id) => {
+const deleteDatingPoolUserById= async (id) => {
   try {
     const deleteDatingPoolUser = await db.one(
       "DELETE FROM dating_pool_user WHERE id = $1 RETURNING *",
@@ -81,5 +81,5 @@ module.exports = {
   getSingleDatingPoolUser,
   createSingleDatingPoolUser,
   updateDatingPoolUserById,
-  deleteDatingPoolUser,
+  deleteDatingPoolUserById,
 };
