@@ -14,7 +14,7 @@ app.use(morgan("dev"));
 
 app.use("/dating-pool", datingPoolController);
 app.use("/profile", userProfileController);
-app.use("gift-sent",giftSentController);
+app.use("/gift-sent", giftSentController);
 
 app.get("/", (req, res) => {
   res.send("Welcome to Valley Vows");
